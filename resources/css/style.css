@@ -77,9 +77,9 @@ h1 b{
   display: block;
   width: 100%;
     margin: 32px 0px;
+    margin-left: 24px;
 }
 .Left {
-    margin-left: 24px;
     width: 60%;
 }
 .Left h1{
@@ -154,7 +154,7 @@ h1 b{
 
 }
 .box{
-  width: 25%;
+  width: 30%;
   padding-left: 32px;
   position: relative;
   overflow: hidden;
@@ -164,4 +164,85 @@ h1 b{
   width: 100%;
   padding: 5px;
 
+}
+.box h2{
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 16px;
+
+}
+
+.box span{
+  font-weight: lighter;
+  font-size: 0.8rem;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 16px;
+
+}
+.box p{
+  font-size: 0.8rem;
+  margin-top: 8px;
+  margin-bottom: 24px;
+  margin-left: 16px;
+
+}
+.videostrip {
+display: flex;
+width: auto;
+}
+.video{
+  width: 60%;
+}
+.video video{
+  display: block;
+  width: 95%;
+    margin: 32px 24px;
+    overflow: hidden;
+}
+.video h3{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 24px;
+  margin-left: 24px;
+  margin-bottom: 8px
+  max-width: 60%;
+}
+.video p{
+  font-size: 1rem;
+  margin-left: 24px;
+  max-width: 100%;
+  margin-bottom: 32px;
+}
+.preview{
+  width: 40%;
+  margin-left: 16px;
+}
+.pbox img{
+  display: block;
+  float: left;
+  height: auto;
+  max-width: 30%;
+  margin: 16px;
+
+}
+.pbox{
+ display: flex;
+ align-items: center;
+}
+.pbox-content{
+  width: 65%;
+  margin-left: 20px;
+  align-items: center;
+  float: right;
+}
+.pbox-content h2{
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+}
+.pbox-content p{
+  font-weight:normal;
+  font-size: 1rem;
+  width: 65%;
 }
