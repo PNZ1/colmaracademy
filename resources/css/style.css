@@ -3,6 +3,7 @@ html{
   font-family: "Roboto", sans-serif;
 }
 
+/* Header */
 .desktop{
   height: 64px;
   display: flex;
@@ -30,4 +31,105 @@ h1 b{
 }
 .dsktoplogo h1{
   line-height: 2rem;
+}
+/*body first strip */
+.hero{
+  display: flex;
+  align-items: center;
+  background-color: rgba(173, 230, 247, 0.5);
+}
+
+
+.image img{
+  display: block;
+  width: 60%;
+    margin: 32px 24px;
+}
+.hero-content{
+  display: block;
+}
+
+.hero-content h1{
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 40px;
+}
+
+.hero-content h2{
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 40px;
+  max-width: 60%;
+}
+.btn{
+  font-size: 1rem;
+  margin: 40px;
+  max-width: 30%;
+  background-color: gray;
+  padding: 0.5rem 2rem;
+  text-align: center;
+}
+.article{
+  display: flex;
+  width: auto;
+}
+.Left img{
+  display: block;
+  width: 100%;
+    margin: 32px 0px;
+}
+.Left {
+    margin-left: 24px;
+    width: 60%;
+}
+.Left h1{
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 24px;
+  max-width: 60%;
+}
+.Left p{
+  font-size: 1rem;
+  margin: 24px;
+  max-width: 60%;
+}
+.position{
+  font-style: italic;
+  font-weight: lighter;
+}
+.right{
+  width: 40%;
+  margin-left: 34px;
+}
+.Rbox{
+ display: flex;
+ align-items: center;
+}
+.Rbox img{
+  display: block;
+  float: left;
+  height: auto;
+  max-width: 30%;
+  margin: 16px;
+
+}
+.Rbox-content{
+  width: 65%;
+  margin-left: 20px;
+  align-items: center;
+  float: right;
+}
+.Rbox-content h3{
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+}
+.Rbox-content p{
+  font-weight:normal;
+  font-size: 1rem;
+  width: 65%;
+}
+.Read{
+  color: blue;
+  margin-top: 8px;
 }
