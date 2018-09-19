@@ -133,3 +133,35 @@ h1 b{
   color: blue;
   margin-top: 8px;
 }
+/*body second boxes strip */
+
+.header{
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 2rem 0px;
+}
+
+.totalbox{
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 72px 32px;
+  width: auto;
+  justify-content: center;
+
+
+
+}
+.box{
+  width: 25%;
+  padding-left: 32px;
+  position: relative;
+  overflow: hidden;
+
+}
+.box img{
+  width: 100%;
+  padding: 5px;
+
+}
